@@ -12,12 +12,12 @@ from aiogram.dispatcher import FSMContext
 from aiogram.dispatcher.filters.state import State, StatesGroup
 from aiogram.types import *
 storage = MemoryStorage()
-bot = Bot('6506133886:AAHtt4C7FtvZVifV3Y2yGslwXXGX6WNGLxw', parse_mode='html')
+bot = Bot('TOKEN', parse_mode='html')
 dp = Dispatcher(bot, storage=storage)
 
 
-admin_id = [295168252, 6666787606, 1264629781]
-group_id = -4071924541
+admin_id = [ID, ID, ID]
+group_id = -ID
 
 
 name_enter = {}
